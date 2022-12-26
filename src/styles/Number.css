@@ -1,0 +1,12 @@
+button {
+    text-align: center;
+    width: 33%;
+    margin: 0 auto;
+    padding: 8% 4%;
+    height: auto;
+    font-size: 24px;
+    background-color: transparent;
+    border: none;
+    counter-reset: rgb(143, 143, 161);
+}
+

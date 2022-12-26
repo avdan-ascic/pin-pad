@@ -1,0 +1,15 @@
+.container {
+    width: 50%;
+    height: 90%;
+    margin: 20px auto;
+    padding-bottom: 50px;
+    background-color: rgb(197, 197, 214);
+    border: solid 1px black;
+}
+
+
+.buttons {
+    width: 80%;
+    margin: 5px auto;
+    padding-bottom: 10px;
+}
