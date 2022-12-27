@@ -30,7 +30,7 @@ const Game = () => {
         if (Number(enteredNumber.join("")) === pin) {
             setMessage("OK");
             setAttempts(3);
-
+            
             setDisabledButton(true);
             setTimeout(() => {
                 setDisabledButton(false);
@@ -60,7 +60,11 @@ const Game = () => {
     const clear = () => {
         setEnteredNumber("");
         setMessage("");
-        setDisabledButton(true);
+        setDisabledButton(false);
+        if (attempts === 1){
+            setDisabledButton(true);
+        }
+
     };
 
     function submitHandler(e) {
