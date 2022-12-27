@@ -60,7 +60,7 @@ const Game = () => {
     const clear = () => {
         setEnteredNumber("");
         setMessage("");
-        setDisabledButton(false);
+        setDisabledButton(true);
     };
 
     function submitHandler(e) {
